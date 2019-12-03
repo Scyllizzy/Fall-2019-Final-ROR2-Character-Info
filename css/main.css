@@ -2,7 +2,14 @@ body {
     font-size: xx-large;
 }
 
-h1, h2 {
+h1, div {
     text-align: center;
+}
+
+h1, h2 {
     margin-bottom: 15em;
+}
+
+.elevator-button:hover {
+    cursor: pointer;
 }

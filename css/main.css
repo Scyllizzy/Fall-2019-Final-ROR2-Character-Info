@@ -1,13 +1,34 @@
+@font-face {
+    font-family: ror2;
+    src: url("../Fonts/riskofrainsquare.ttf");
+}
+
+@font-face {
+    font-family: pix;
+    src: url("../Fonts/son-son.ttf");
+}
+
 body {
+    background-image: url("/img/ROR2_Background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-size: xx-large;
+}
+
+h1 {
+    font-family: ror2;
+}
+
+h2 {
+    margin-top: 15em;
+    margin-bottom: 1em;
+    font-family: pix;
 }
 
 h1, div {
     text-align: center;
-}
-
-h1, h2 {
-    margin-bottom: 15em;
 }
 
 .elevator-button:hover {

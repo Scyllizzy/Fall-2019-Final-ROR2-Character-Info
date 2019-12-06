@@ -8,6 +8,11 @@
     src: url("../Fonts/son-son.ttf");
 }
 
+/*
+    font-family: 'Share Tech Mono', monospace; <- For "Character Guide"
+    font-family: 'Comfortaa', cursive; <- For stats small text
+*/
+
 body {
     background-image: url("/img/ROR2_Background.jpg");
     background-attachment: fixed;

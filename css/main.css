@@ -22,9 +22,31 @@ body {
     font-size: xx-large;
 }
 
-h1 {
+div#title h1 {
     font-family: ror2;
+    font-size: 150px;
+    color: rgb(255, 162, 56);
+    width: 100%;
 }
+
+div#title div {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 70px;
+    color: white;
+}
+
+.hero {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+div#title {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 35%;
+} 
 
 h2 {
     margin-top: 15em;
@@ -32,8 +54,11 @@ h2 {
     font-family: pix;
 }
 
-h1, div {
-    text-align: center;
+section {
+    display: block;
+    width: 100%;
+    float: left;
+    overflow: hidden;
 }
 
 .elevator-button:hover {

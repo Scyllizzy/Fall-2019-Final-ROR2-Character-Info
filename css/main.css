@@ -81,70 +81,71 @@ section {
 }
 
 /*Character card colors*/
+#commando {
+    background-color: rgba(248, 181, 150, 0.877);
+}
+
+#commando .card-title{
+    border-bottom: 1px solid rgb(158, 88, 55);
+}
+
+#mul-t {
+    background-color: rgba(241, 225, 153, 0.877);
+}
+
+#mul-t .card-title {
+    border-bottom: 1px solid rgb(141, 136, 59);
+}
+
 #huntress {
-    background-color: rgb(243, 189, 189);
+    background-color: rgb(245, 167, 167, 0.877);
 }
 
 #huntress .card-title {
     border-bottom: 1px solid rgb(161, 74, 74);
 }
 
-#artificer {
-    background-color: rgb(243, 189, 189);
-}
-
-#artificer .card-title{
-    border-bottom: 1px solid rgb(161, 74, 74);
-}
-
-#mercenary {
-    background-color: rgb(243, 189, 189);
-}
-
-#mercenary .card-title {
-    border-bottom: 1px solid rgb(161, 74, 74);
-}
-
 #engineer {
-    background-color: rgb(243, 189, 189);
+    background-color: rgba(137, 255, 176, 0.877);
 }
 
 #engineer .card-title{
-    border-bottom: 1px solid rgb(161, 74, 74);
+    border-bottom: 1px solid rgb(62, 155, 93);
 }
 
-#mul-t {
-    background-color: rgb(243, 189, 189);
+#artificer {
+    background-color: rgb(248, 205, 245, 0.877);
 }
 
-#mul-t .card-title {
-    border-bottom: 1px solid rgb(161, 74, 74);
+#artificer .card-title{
+    border-bottom: 1px solid rgb(187, 130, 184);
 }
 
-#commando {
-    background-color: rgb(243, 189, 189);
+#mercenary {
+    background-color: rgba(165, 239, 245, 0.877);
 }
 
-#commando .card-title{
-    border-bottom: 1px solid rgb(161, 74, 74);
-}
-
-#loader {
-    background-color: rgb(243, 189, 189);
-}
-
-#loader .card-title {
-    border-bottom: 1px solid rgb(161, 74, 74);
+#mercenary .card-title {
+    border-bottom: 1px solid rgb(74, 148, 161);
 }
 
 #rex {
-    background-color: rgb(189, 243, 189);
+    background-color: rgba(168, 209, 151, 0.877);
 }
 
 #rex .card-title{
-    border-bottom: 1px solid rgb(71, 133, 71);
+    border-bottom: 1px solid rgb(58, 121, 58);
+}
+
+#loader {
+    background-color: rgba(163, 164, 231, 0.877);
+}
+
+#loader .card-title {
+    border-bottom: 1px solid rgb(82, 62, 156);
 }
 /*End char card colors*/
+
 .char-back {
     border: 3px solid white;
 }

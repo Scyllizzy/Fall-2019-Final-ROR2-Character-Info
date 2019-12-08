@@ -174,7 +174,7 @@ h4.card-text {
 }
 
 img + p.card-text {
-    border-bottom: 1px dotted rgb(161, 74, 74);
+    border-bottom: 1px dotted black;
     height: 70px;
 }
 
@@ -195,4 +195,48 @@ p.card-text.no-border {
 
 #scroll, .elevator-button {
     font-family: 'Baloo Bhai', cursive;
+}
+
+@media (max-width: 1199.98px) {
+    .card-text {
+        font-size: medium;
+    }
+    
+    #title h1 {
+        font-size: 85px;
+    }
+    
+    #title div {
+        font-size: 50px;
+    }
+    
+    #title {
+        top: 35%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .card-text {
+        font-size: small;
+    }
+    
+    img + p.card-text {
+        height: 75px;
+    }
+    
+    #title h1 {
+        font-size: 75px;
+    }
+    
+    #title div {
+        font-size: 40px;
+    }
+    
+    .hero {
+        height: 11em;
+    }
+    
+    #title {
+        top: 30%;
+    }
 }

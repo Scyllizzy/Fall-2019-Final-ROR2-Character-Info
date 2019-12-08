@@ -80,17 +80,77 @@ section {
     width: 100%;
 }
 
+/*Character card colors*/
 #huntress {
     background-color: rgb(243, 189, 189);
 }
 
+#huntress .card-title {
+    border-bottom: 1px solid rgb(161, 74, 74);
+}
+
+#artificer {
+    background-color: rgb(243, 189, 189);
+}
+
+#artificer .card-title{
+    border-bottom: 1px solid rgb(161, 74, 74);
+}
+
+#mercenary {
+    background-color: rgb(243, 189, 189);
+}
+
+#mercenary .card-title {
+    border-bottom: 1px solid rgb(161, 74, 74);
+}
+
+#engineer {
+    background-color: rgb(243, 189, 189);
+}
+
+#engineer .card-title{
+    border-bottom: 1px solid rgb(161, 74, 74);
+}
+
+#mul-t {
+    background-color: rgb(243, 189, 189);
+}
+
+#mul-t .card-title {
+    border-bottom: 1px solid rgb(161, 74, 74);
+}
+
+#comando {
+    background-color: rgb(243, 189, 189);
+}
+
+#comando .card-title{
+    border-bottom: 1px solid rgb(161, 74, 74);
+}
+
+#loader {
+    background-color: rgb(243, 189, 189);
+}
+
+#loader .card-title {
+    border-bottom: 1px solid rgb(161, 74, 74);
+}
+
+#rex {
+    background-color: rgb(189, 243, 189);
+}
+
+#rex .card-title{
+    border-bottom: 1px solid rgb(71, 133, 71);
+}
+/*End char card colors*/
 .char-back {
     border: 3px solid white;
 }
 
 .card-title {
     padding-bottom: .4em;
-    border-bottom: 1px solid rgb(161, 74, 74);
     font-family: 'Righteous', cursive;
 }
 

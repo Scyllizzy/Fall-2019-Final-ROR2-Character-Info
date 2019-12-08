@@ -28,7 +28,7 @@ body {
     width: 100%;
     height: 100%;
     z-index: -1; /*So clickables are still able to be clicked*/
-    background-color: rgba(3, 29, 53, 0.486);
+    background-color: rgba(2, 16, 29, 0.555);
 }
 
 #title h1 {
@@ -80,12 +80,58 @@ section {
     width: 100%;
 }
 
+#huntress {
+    background-color: rgb(243, 189, 189);
+}
+
+.char-back {
+    border: 3px solid white;
+}
+
+.card-title {
+    padding-bottom: .4em;
+    border-bottom: 1px solid rgb(161, 74, 74);
+    font-family: 'Righteous', cursive;
+}
+
+.text-right {
+    text-align: right;
+}
+
+h4.card-text {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.card-text {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
+
+.skill-img {
+    float: left;
+    margin: 0em .3em .5em 0em;
+}
+
+img + p.card-text {
+    border-bottom: 1px dotted rgb(161, 74, 74);
+    height: 70px;
+}
+
+p.card-text.no-border {
+    border: none;
+}
+
 .elevator-button {
     text-align: center;
     color: white;
-    margin: 4em;
+    margin: 3em 0em 1em 0em;
+    font-size: 50px;
 }
 
 .elevator-button:hover {
     cursor: pointer;
+}
+
+#scroll, .elevator-button {
+    font-family: 'Baloo Bhai', cursive;
 }

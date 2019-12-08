@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bebas+Neue|Righteous&display=swap" rel="stylesheet"> <!--I would put this in the one above but it's doing something.. odd with the font. So I'm leaving it here-->
     <title>Risk Of Rain 2 Charcter Guide</title>
 </head>
 <body>
@@ -30,17 +31,36 @@
                 <!--Character Name-->
                 <h2>Huntress</h2>
                 <!--Character Info&Picture-->
-                <div class="card mb-3">
+                <div class="card mb-3 char-back" id="huntress">
                     <div class="row no-gutters">
                         <div class="col-md-5">
-                            <img src="/img/HuntressF.jpg" class="card-img" alt="Huntress">
+                            <img src="/img/characters/HuntressF.jpg" class="card-img" alt="Huntress">
                         </div>
+
                         <div class="col-md-7">
                             <div class="card-body">
-                                <h3 class="card-title">Sub Category</h3> <!--card-title can be sub categories-->
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <h3 class="card-title">Sub Category..</h3>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> <!--small = represents side comments such as small print-->
+                                <h3 class="card-title">Max Health</h3>
+                                    <p class="card-text">90 (+27 per level)</p>
+
+                                <h3 class="card-title">Damage</h3>
+                                    <p class="card-text">12 (+2.4 per level)</p>
+
+                                <h3 class="card-title">Skills</h3>
+                                    <h4 class="card-text">Strafe</h4>
+                                        <img src="/img/skills/strafe.png" alt="Strafe" class="skill-img">
+                                        <p class="card-text">Fire a seeking arrow for 150% dmg. Can be used while sprinting.</p>
+
+                                    <h4 class="card-text">Lazer Glaive</h4>
+                                        <img src="/img/skills/lazorGlave.png" alt="Lazer Glaive" class="skill-img">
+                                        <p class="card-text">Throw a seeking glaive that bounces up to 6 times for 250% dmg. Dmg increases by 10% per bounce.</p>
+
+                                    <h4 class="card-text">Blink</h4>
+                                        <img src="/img/skills/blink.png" alt="Blink" class="skill-img">
+                                        <p class="card-text">Disappear and teleport forward.</p>
+
+                                    <h4 class="card-text">Arrow Rain</h4>
+                                        <img src="/img/skills/arrowRain.png" alt="Arrow Rain" class="skill-img">
+                                        <p class="card-text no-border">Teleport into the sky. Target an area to rain arrows, slowing and dealing 225% dmg per second.</p>
                             </div>
                         </div>
                     </div>
@@ -55,7 +75,7 @@
     <script>
       AOS.init({
             easing: 'ease-out-back',
-            duration: 3000
+            duration: 2000
         });
     </script>
 

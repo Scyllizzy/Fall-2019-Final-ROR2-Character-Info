@@ -1,11 +1,11 @@
 @font-face {
     font-family: ror2;
-    src: url("fonts/riskofrainsquare.ttf");
+    src: url("../fonts/riskofrainsquare.ttf");
 }
 
 @font-face {
     font-family: pix;
-    src: url("fonts/son-son.ttf");
+    src: url("../fonts/son-son.ttf");
 }
 
 /*
@@ -14,7 +14,7 @@
 */
 
 body {
-    background-image: url("img/ROR2_Background.jpg");
+    background-image: url("../img/ROR2_Background.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

@@ -154,6 +154,10 @@ section {
 }
 /*End char card colors*/
 
+.img-flip {
+    transform: scaleX(-1);
+}
+
 .char-back {
     border: 3px solid white;
 }

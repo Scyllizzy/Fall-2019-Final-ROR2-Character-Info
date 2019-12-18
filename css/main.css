@@ -144,6 +144,14 @@ section {
 #loader .card-title {
     border-bottom: 1px solid rgb(82, 62, 156);
 }
+
+#acrid {
+    background-color: rgba(171, 255, 93, 0.726);
+}
+
+#acrid .card-title {
+    border-bottom: 1px solid rgb(49, 129, 33);
+}
 /*End char card colors*/
 
 .char-back {
